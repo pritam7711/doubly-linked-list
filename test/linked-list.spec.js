@@ -6,7 +6,7 @@ describe('LinkedList', () => {
         const list = new LinkedList();
 
         it('assign 0 to this.length', () => {
-            expect(list.length).to.equal(0);
+            expect(list.length)=0;
         })
     });
 
